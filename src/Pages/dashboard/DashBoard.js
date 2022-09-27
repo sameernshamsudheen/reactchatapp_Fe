@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../../CommonComponents/Header/Header";
 import PostCreator from "../../CommonComponents/PostCreater/PostCreator";
 import Sidebar from "../../CommonComponents/SideBar/Sidebar";
+import PostWrapper from "../../CommonComponents/PostWrapper/PostWrapper";
 import "./Dasboard.scss";
 
 const DashBoard = () => {
@@ -13,7 +14,13 @@ const DashBoard = () => {
           <Sidebar />
         </div>
         <div className="feed">
-          <PostCreator />
+          <div className="section-one">
+            {" "}
+            <PostCreator />
+          </div>
+          <div className="section-two">
+            <PostWrapper />
+          </div>
         </div>
         <div className="rightBar">rightBa</div>
       </div>
