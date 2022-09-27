@@ -21,19 +21,12 @@ const Header = () => {
     <Menu
       items={[
         {
-          label: <div onClick={handleLogout}>Logout</div>,
+          label: <div className="">Timeline</div>,
           key: "0",
         },
         {
-          label: <a href="https://www.aliyun.com"></a>,
+          label: <div onClick={handleLogout}>Logout</div>,
           key: "1",
-        },
-        {
-          type: "divider",
-        },
-        {
-          label: "3rd menu item",
-          key: "3",
         },
       ]}
     />
@@ -43,11 +36,13 @@ const Header = () => {
   return (
     <div className="Header">
       <div className="Logo">
-        <h2 className="logo-text">Be Social</h2>
+        <h2 onClick={() => Navigate("/dashboard")} className="logo-text">
+          Be Social
+        </h2>
       </div>
       <input
         className="search-controls"
-        style={{ width: "25%", borderRadius: "20px" }}
+        style={{ width: "45%", borderRadius: "20px" }}
         type="search"
         placeholder="search here"
       />
