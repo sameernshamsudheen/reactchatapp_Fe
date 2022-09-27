@@ -25,8 +25,16 @@ const Header = () => {
           key: "0",
         },
         {
-          label: <div onClick={handleLogout}>Logout</div>,
+          label: <div>Messages</div>,
           key: "1",
+        },
+        {
+          label: <div>Profile</div>,
+          key: "1",
+        },
+        {
+          label: <div onClick={handleLogout}>Logout</div>,
+          key: "2",
         },
       ]}
     />
