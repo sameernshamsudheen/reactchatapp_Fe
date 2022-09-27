@@ -1,0 +1,35 @@
+.Header{
+  background-color: green;
+  color: white;
+  padding: 0.2rem;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  .search-controls{
+    padding: 2px 10px;
+    color: black;
+    outline: none;
+
+  }
+  .Logo{
+    margin: 10px 0;
+      .logo-text{
+         color: white;
+         font-size: 1.5rem;
+      
+
+      }
+
+  }
+.profile-block{
+
+   .drop-down{
+    margin:1rem
+
+
+   }
+
+}
+
+}

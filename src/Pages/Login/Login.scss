@@ -1,0 +1,41 @@
+.Login{
+
+ display: flex;
+ width: 80%;
+ margin: 0 auto;
+ 
+ justify-content: space-between;
+ align-items: center;
+
+  height: 80vh;
+  .text-container{
+     color:green;
+        font-size:2.5rem;
+        font-style: italic;
+        text-align: center;
+
+
+
+}
+}
+
+
+@media(max-width:725px){
+    .Login{
+
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         height: 100vh;
+
+      .text-container{
+        font-size: 2rem;
+       
+      }
+      .login-form{
+        margin-top: 10px 0;
+      }
+
+    }
+
+}
