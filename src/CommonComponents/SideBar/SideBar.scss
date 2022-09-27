@@ -1,0 +1,27 @@
+.sideBar {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+
+  justify-content: start;
+
+  .sidebar-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 2rem 0;
+
+    .menu-label {
+      margin-left: 10px;
+    }
+  }
+  .sidebar-show-more-btn {
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 0.2rem 0.2rem 0.2rem;
+    background-color: green;
+    color: white;
+    margin: 1rem 2rem;
+  }
+}

@@ -1,0 +1,15 @@
+.DashBoard {
+  height: 100vh;
+  .main-page {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: stretch;
+
+    .sideBar {
+      width: 20%;
+    }
+  }
+}
+
+/* Let's get this party started */

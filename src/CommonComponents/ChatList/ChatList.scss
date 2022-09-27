@@ -1,0 +1,11 @@
+.chatListComponent {
+  .chat-heads {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 2rem 0;
+    .chat-name {
+      margin-left: 10px;
+    }
+  }
+}
