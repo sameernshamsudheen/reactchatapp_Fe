@@ -1,0 +1,33 @@
+.Profile {
+  .profile-cover {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .profile-container {
+    display: flex;
+
+    .left-sidebar {
+      width: 30%;
+    }
+    .feed-profile {
+      width: 60%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 1rem 1rem;
+      // border: 1px solid red;
+      .section-one-profile {
+        width: 100%;
+        margin: 0 auto;
+      }
+      .section-two-profile {
+        width: 100%;
+      }
+    }
+    .right-sidebar {
+      width: 30%;
+      padding: 1rem;
+    }
+  }
+}

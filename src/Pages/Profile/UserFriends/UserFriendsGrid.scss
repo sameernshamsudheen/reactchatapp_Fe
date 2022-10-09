@@ -1,0 +1,16 @@
+.UserFriendsGrid {
+  .UserFriendsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .image-Friend {
+      width: 80px;
+      margin: 5px;
+    }
+    .friends-image-name {
+      .text {
+        text-align: center;
+      }
+    }
+  }
+}
