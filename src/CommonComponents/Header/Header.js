@@ -58,6 +58,7 @@ const Header = () => {
         <Avatar
           size={{ xs: 24, sm: 32, md: 40, lg: 10, xl: 36, xxl: 100 }}
           icon={<AntDesignOutlined />}
+          onClick={() => Navigate("/profile")}
         />
         <span className="drop-down">
           <Dropdown overlay={menu} trigger={["click"]}>

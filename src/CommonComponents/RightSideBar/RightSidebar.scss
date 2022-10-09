@@ -1,0 +1,35 @@
+.RightSidebar {
+  padding: 1rem 1rem;
+  .image-banner {
+    width: 100%;
+
+    max-width: 300px;
+  }
+  .top-section {
+    .birthday-text-image {
+      padding: 3rem 0;
+      display: flex;
+      align-items: center;
+      span {
+        img {
+          width: 100%;
+          max-width: 100px;
+        }
+      }
+    }
+  }
+  .online-friends {
+    padding: 1rem;
+
+    .online-chat-list {
+      .online-chat-container {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        .online-chat-heads-names {
+          padding: 1rem;
+        }
+      }
+    }
+  }
+}
